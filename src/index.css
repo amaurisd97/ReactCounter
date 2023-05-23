@@ -1,0 +1,43 @@
+:root,
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.btn {
+  margin: 10px;
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+
+
+.back {
+  background-color: white;
+  color: #242424;
+
+  .btn:active {
+    box-shadow: 0px 0px 5px black;
+  }
+}
+
+.btn:active {
+  box-shadow: 0px 0px 5px white;
+}
